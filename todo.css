@@ -14,7 +14,7 @@ body {
   width: 440px;
   display: flex;
   z-index: 9;
-  position: fixed;
+  position: absolute;
   left: 37%;
   top: 160px;
   z-index: -12;
@@ -31,7 +31,7 @@ body {
     width: 440px;
     display: flex;
     z-index: 9;
-    position: fixed;
+    position: absolute;
     left: 37%;
     top: 160px;
     z-index: -2;
@@ -44,8 +44,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 38%;
-  margin-top: 182px;
+  margin-left: 38.25%;
+  margin-top: 185px;
   margin-bottom: 35px;
   z-index: 100;
 }
@@ -55,7 +55,7 @@ body {
   background-color: #dad9d9;
   width: 378px;
   height: 30px;
-  margin-left: 38%;
+  margin-left: 38.25%;
   margin-top: 30px;
   font-family: Roboto, Arial;
   font-size: 14px;
