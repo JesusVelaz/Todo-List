@@ -2,7 +2,7 @@
 body {
   width: 99.6%;
   height: 100%;
-  background-color: #5C6B73;
+  background-color: #e4e5e6;
 
 }
 
@@ -15,7 +15,7 @@ body {
   display: flex;
   z-index: 9;
   position: absolute;
-  left: 37%;
+  margin-left: 36.5%;
   top: 160px;
   z-index: -12;
 }
@@ -32,7 +32,7 @@ body {
     display: flex;
     z-index: 9;
     position: absolute;
-    left: 37%;
+    margin-left: 36.5%;
     top: 160px;
     z-index: -2;
   }
@@ -111,5 +111,22 @@ body {
   opacity: 0.8;
 }
 
+@media all and (max-width: 1000px) {
+  body{
+    width: 70%;
+  }
+  
+  .border, .border2{
+    margin-left: 23.5%;
+  }
+}
 
+@media all and (max-width: 600px) {
+  body{
+    width: 30%;
+  }
 
+  .border, .border2{
+    margin-left: 5.5%;
+  }
+}
