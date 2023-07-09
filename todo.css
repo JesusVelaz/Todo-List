@@ -2,12 +2,12 @@
 body {
   width: 99.6%;
   height: 100%;
-  background-color: #e4e5e6;
+  background-color: #424242;
 
 }
 
 .border {
-  background-color: #DCD6D2;
+  background-color: #ebe9e9;
   border: solid;
   border-radius: 20px;
   height: 520px;
@@ -22,7 +22,7 @@ body {
 
 
 .border2 {
-    background-color: #1B2239;
+    background-color: #757575;
     border: solid;
     border-radius: 20px;
     border-bottom-left-radius: 0%;
@@ -87,13 +87,14 @@ body {
   background-color: #dadada;
   float: right;
   content: "Delete ";
-  padding: 5px;
+  padding: 6px;
   font-family: Roboto, Arial;
+  font-size: 13px;
   border: solid;
   border-radius: 3px;
-  border-width: 1px;
-  border-color: rgb(124, 124, 124);
-  line-height: 18px;
+  border-width: 2px;
+  border-color: rgb(7, 7, 7);
+  line-height: 14px;
   cursor: pointer;
   transition: background-color 0.25s;
 }
