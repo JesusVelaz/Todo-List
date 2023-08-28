@@ -105,7 +105,7 @@
         todos.forEach(function (todo) {
           const element = document.createElement('div');
           element.className = "task-list";
-          element.innerText = todo.title + ' ' + todo.dueDate;
+          element.innerText = todo.title + " \xa0 " + todo.dueDate;
 
           const deleteButton = document.createElement('button');
           deleteButton.className = "delete-button";
